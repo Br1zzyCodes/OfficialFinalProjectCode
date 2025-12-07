@@ -89,3 +89,4 @@ public class Sensor {
         return sum / historySize;
     }
 }
+// Nathan
