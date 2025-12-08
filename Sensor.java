@@ -136,11 +136,7 @@ public class Sensor {
         return sum / historySize;
     }
 }
-<<<<<<< Updated upstream
-
 //Bryan Ended
 
 // All comments made by Bryan Brizuela and Nathan Bal
 // Ai usage was enngaged Whe any difficult errors occured.
-=======
->>>>>>> Stashed changes
