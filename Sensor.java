@@ -1,3 +1,7 @@
+// Collaborators: Bryan Brizuela, Nathan Bal, and Mohammed Kasana
+
+//Nathan Started
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -57,8 +61,10 @@ public class Sensor {
                 this.unit = "";  // Fallback for unknown types
         }
     }
+// Nathan Ended
 
 
+    // Bryan Started
     public void update() {
 
         // ---- HISTORY SHIFT ----
@@ -130,3 +136,8 @@ public class Sensor {
         return sum / historySize;
     }
 }
+
+//Bryan Ended
+
+// All comments made by Bryan Brizuela and Nathan Bal
+// Ai usage was enngaged Whe any difficult errors occured.

@@ -1,3 +1,6 @@
+// Collaborators: Bryan Brizuela, Nathan Bal, and Mohammed Kasana
+
+
 // AI Starts code off.
 
 import java.util.Scanner;
@@ -144,4 +147,4 @@ public class WeatherSimulator {
 }
 // Bryan Brizuela Ends.
 
-// Ai usage was engaged When errors occured.
+// Ai usage was engaged When any difficult errors occured.

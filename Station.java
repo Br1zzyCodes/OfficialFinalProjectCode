@@ -1,3 +1,10 @@
+// Collaborators: Bryan Brizuela, Nathan Bal, and Mohammed Kasana
+
+
+// Mohammed Started
+
+// AI usage
+
 import java.util.ArrayList;
 import java.util.List;
  // Represents a single weather station within the network.
@@ -22,6 +29,7 @@ public class Station {
 
      // Constructor initializes a station with three sensors.
      // Default values give the simulation a realistic starting point.
+// Ai End
 
     public Station(String name) {
         this.name = name;
@@ -34,6 +42,10 @@ public class Station {
         sensors.add(new Sensor("Humidity", 50.0));    // Start at 50% (moderate humidity)
         sensors.add(new Sensor("Wind", 5.0));         // Start at 5 m/s (light breeze)
     }
+
+    // Mohammed Ended
+
+    //Nathan Started
 
      // Called once during every simulation tick.
      // Loops through each sensor and updates its reading.
@@ -126,3 +138,7 @@ public class Station {
         return sb.toString();
     }
 }
+// Nathan Ended
+
+// All comments made by Nathan and Mohammed with assist of Ai.
+// Ai usage was engaged When any difficult errors occured.

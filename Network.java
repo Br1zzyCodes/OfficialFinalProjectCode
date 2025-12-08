@@ -1,3 +1,6 @@
+// Collaborators: Bryan Brizuela, Nathan Bal, and Mohammed Kasana
+
+// Mohammed Started
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,7 +44,10 @@ public class Network {
             s.updateAll();  // Trigger update on each station's sensors
         }
     }
+//Mohammed Ended
 
+
+    //Nathan Started
 
     // Returns the full list of stations.
      // Used by the WeatherSimulator when searching for a city or displaying history.
@@ -83,3 +89,7 @@ public class Network {
         return sb.toString();
     }
 }
+//Nathan Ended
+
+// All comments made By Bryan Brizuela and Nathan Bal
+// Ai usage was engaged When any difficult errors occured.
