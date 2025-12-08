@@ -49,15 +49,15 @@ public class WeatherSimulator {
 
     private void printMenu() {
         System.out.println("\n=== Weather Station Simulator ===");
-        System.out.println("1. List Stations & Status");
+        System.out.println("1. List City & Status");
         System.out.println("2. Advance Time (Tick)");
-        System.out.println("3. View Station History");
+        System.out.println("3. View City History");
         System.out.println("4. Exit");
         System.out.print("Select an option: ");
     }
 
     private void viewStationHistory() {
-        System.out.print("Enter station name: ");
+        System.out.print("Enter City name: ");
         String name = scanner.nextLine();
 
         Station target = null;
@@ -83,7 +83,7 @@ public class WeatherSimulator {
                         s.getMin(), s.getAvg(), s.getMax());
             }
         } else {
-            System.out.println("Station not found.");
+            System.out.println("City not found.");
         }
     }
 

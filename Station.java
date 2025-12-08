@@ -44,12 +44,12 @@ public class Station {
     }
 
     public String getName() {
-        // Requirement: Stations are identifiable by name
+        // Requirement: Cities are identifiable by name
         return name;
     }
 
     public List<Sensor> getSensors() {
-        // Requirement: Network stores stations and their sensors
+        // Requirement: Network stores Cities and their sensors
         return sensors;
     }
 
@@ -57,7 +57,7 @@ public class Station {
         // Requirement: Console UI shows latest readings
         // Learning outcome: Formatting output for user interface
         StringBuilder sb = new StringBuilder();
-        sb.append(String.format("Station: %-15s | ", name));
+        sb.append(String.format("City: %-15s | ", name));
         for (Sensor s : sensors) {
             // Show abbreviated sensor type and latest value
             sb.append(String.format("%s: %s  ", s.getType().substring(0, 4), s.getFormattedValue()));

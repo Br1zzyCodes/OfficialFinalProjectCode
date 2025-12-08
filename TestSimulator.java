@@ -23,7 +23,7 @@ public class TestSimulator {
 
      private static void testAlerts() {
         System.out.println("Testing Alerts...");
-        Station st = new Station("Test Station");
+        Station st = new Station("Test City");
 
         // Force high temp
         Sensor tempSensor = st.getSensors().get(0); // Temp is first
